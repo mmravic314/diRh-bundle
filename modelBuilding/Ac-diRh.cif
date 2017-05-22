@@ -1,0 +1,103 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_ACAQRH10
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1100448'
+_database_code_CSD               ACAQRH10
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1107/S0567740871004527 1971
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2017-05-03 downloaded from the CCDC.
+;
+_database_code_NBS               500226
+_chemical_formula_moiety         'C8 H16 O10 Rh2'
+_chemical_name_systematic        
+tetrakis(\m~2~-Acetato-O,O')-diaqua-di-rhodium(ii)
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    2.22334
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.027
+_refine_ls_wR_factor_gt          0.027
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'C 2/c'
+_symmetry_Int_Tables_number      15
+_space_group_name_Hall           '-C 2yn'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2+x,1/2+y,z
+3 -x,y,1/2-z
+4 1/2-x,1/2+y,1/2-z
+5 -x,-y,-z
+6 1/2-x,1/2-y,-z
+7 x,-y,1/2+z
+8 1/2+x,1/2-y,1/2+z
+_cell_length_a                   13.287(13)
+_cell_length_b                   8.608(9)
+_cell_length_c                   14.042(15)
+_cell_angle_alpha                90
+_cell_angle_beta                 117.23(5)
+_cell_angle_gamma                90
+_cell_volume                     1428.06
+_cell_formula_units_Z            4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.18420 0.02230 0.18440
+C2 C 0.28580 0.03970 0.29120
+C3 C 0.06800 -0.25660 -0.05250
+C4 C 0.10510 -0.40370 -0.08450
+H1 H 0.25900 0.07000 0.33800
+H2 H 0.34600 0.13000 0.29700
+H3 H 0.32000 -0.06100 0.32800
+H4 H 0.07300 -0.40800 -0.16000
+H5 H 0.06700 -0.50400 -0.08600
+H6 H 0.18000 -0.41900 -0.03900
+O1 O 0.18530 0.08730 0.10410
+O2 O 0.10210 -0.05750 0.18120
+O3 O 0.09710 -0.12910 -0.07810
+O4 O -0.01150 0.26920 0.00050
+O5 O 0.12430 0.21090 -0.13190
+Rh1 Rh 0.04467 0.07453 -0.04161
+Rh1D Rh -0.04467 -0.07453 0.04161
+O2D O -0.10210 0.05750 -0.18120
+O4D O 0.01150 -0.26920 -0.00050
+C3D C -0.06800 0.25660 0.05250
+O1D O -0.18530 -0.08730 -0.10410
+O3D O -0.09710 0.12910 0.07810
+O5D O -0.12430 -0.21090 0.13190
+C1D C -0.18420 -0.02230 -0.18440
+C4D C -0.10510 0.40370 0.08450
+C2D C -0.28580 -0.03970 -0.29120
+H4D H -0.07300 0.40800 0.16000
+H5D H -0.06700 0.50400 0.08600
+H6D H -0.18000 0.41900 0.03900
+H1D H -0.25900 -0.07000 -0.33800
+H2D H -0.34600 -0.13000 -0.29700
+H3D H -0.32000 0.06100 -0.32800
+
+#END

@@ -1,0 +1,409 @@
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-rc1-1-gba7c3c3-namd-charm-6.6.1-build-2014-Dec-08-28969
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 unique compute nodes (4-way SMP).
+Charm++> cpu topology info is gathered in 0.009 seconds.
+Info: NAMD 2.10 for MacOSX-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Comp. Chem. 26:1781-1802 (2005)
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 60601 for multicore-darwin-x86_64
+Info: Built Tue Dec 9 15:31:59 CST 2014 by jim on melbourne.ks.uiuc.edu
+Info: 1 NAMD  2.10  MacOSX-x86_64-multicore  1    otp589725ots.ucsf.edu  mmravic
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.112814 s
+Info: 2428.12 MB of memory in use based on ps
+Info: Configuration file is fitCST_minCPU.conf
+Info: Working in the current directory /Users/mmravic/diRh-bundle/modelBuilding
+TCL: Suspending until startup complete.
+FATAL ERROR: Cannot specify both an initial temperature and a velocity file
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006ff9fd CmiAbort + 77
+  [0:1] 1   namd2                               0x000000010007a9ef _Z8NAMD_diePKc + 79
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006fdf79 charmrun_abort + 249
+  [0:1] 1   namd2                               0x00000001006ffa38 CmiAbort + 136
+  [0:2] 2   namd2                               0x000000010007a9ef _Z8NAMD_diePKc + 79
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-rc1-1-gba7c3c3-namd-charm-6.6.1-build-2014-Dec-08-28969
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 unique compute nodes (4-way SMP).
+Charm++> cpu topology info is gathered in 0.000 seconds.
+Info: NAMD 2.10 for MacOSX-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Comp. Chem. 26:1781-1802 (2005)
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 60601 for multicore-darwin-x86_64
+Info: Built Tue Dec 9 15:31:59 CST 2014 by jim on melbourne.ks.uiuc.edu
+Info: 1 NAMD  2.10  MacOSX-x86_64-multicore  1    otp589725ots.ucsf.edu  mmravic
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.0036931 s
+Info: 2419.12 MB of memory in use based on ps
+Info: Configuration file is fitCST_minCPU.conf
+Info: Working in the current directory /Users/mmravic/diRh-bundle/modelBuilding
+TCL: Suspending until startup complete.
+Info: EXTENDED SYSTEM FILE   ionized_input.xsc
+FATAL ERROR: Unable to open extended system file.
+
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006ff9fd CmiAbort + 77
+  [0:1] 1   namd2                               0x000000010007a9ef _Z8NAMD_diePKc + 79
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006fdf79 charmrun_abort + 249
+  [0:1] 1   namd2                               0x00000001006ffa38 CmiAbort + 136
+  [0:2] 2   namd2                               0x000000010007a9ef _Z8NAMD_diePKc + 79
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-rc1-1-gba7c3c3-namd-charm-6.6.1-build-2014-Dec-08-28969
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 unique compute nodes (4-way SMP).
+Charm++> cpu topology info is gathered in 0.000 seconds.
+Info: NAMD 2.10 for MacOSX-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Comp. Chem. 26:1781-1802 (2005)
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 60601 for multicore-darwin-x86_64
+Info: Built Tue Dec 9 15:31:59 CST 2014 by jim on melbourne.ks.uiuc.edu
+Info: 1 NAMD  2.10  MacOSX-x86_64-multicore  1    otp589725ots.ucsf.edu  mmravic
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.00343299 s
+Info: 2428.12 MB of memory in use based on ps
+Info: Configuration file is fitCST_minCPU.conf
+Info: Working in the current directory /Users/mmravic/diRh-bundle/modelBuilding
+TCL: Suspending until startup complete.
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               2
+Info: NUMBER OF STEPS        0
+Info: STEPS PER CYCLE        10
+Info: LOAD BALANCER  Centralized
+Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
+Info: LDB PERIOD             2000 steps
+Info: FIRST LDB TIMESTEP     50
+Info: LAST LDB TIMESTEP     -1
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: MIN ATOMS PER PATCH    40
+Info: INITIAL TEMPERATURE    310
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 ELECTROSTATICS SCALED BY 1
+Info: MODIFIED 1-4 VDW PARAMETERS WILL BE USED
+Info: DCD FILENAME           output.dcd
+Info: DCD FREQUENCY          2000
+Info: DCD FIRST STEP         2000
+Info: XST FILENAME           output.xst
+Info: XST FREQUENCY          2000
+Info: NO VELOCITY DCD OUTPUT
+Info: NO FORCE DCD OUTPUT
+Info: OUTPUT FILENAME        output
+Info: BINARY OUTPUT FILES WILL BE USED
+Info: RESTART FILENAME       output.restart
+Info: RESTART FREQUENCY      1000
+Info: BINARY RESTART FILES WILL BE USED
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           10
+Info: SWITCHING OFF          12
+Info: PAIRLIST DISTANCE      14
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 0
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        16.5
+Info: ENERGY OUTPUT STEPS    1000
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    10000
+Info: PRESSURE OUTPUT STEPS  1000
+Info: HARMONIC CONSTRAINTS ACTIVE
+Info: HARMONIC CONS EXP      2
+Info: HARMONIC CONS SCALING  2
+Info: LANGEVIN DYNAMICS ACTIVE
+Info: LANGEVIN TEMPERATURE   310
+Info: LANGEVIN USING BBK INTEGRATOR
+Info: LANGEVIN DAMPING COEFFICIENT IS 1 INVERSE PS
+Info: LANGEVIN DYNAMICS NOT APPLIED TO HYDROGENS
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: RIGID BONDS TO HYDROGEN : ALL
+Info:         ERROR TOLERANCE : 1e-08
+Info:          MAX ITERATIONS : 100
+Info: RIGID WATER USING SETTLE ALGORITHM
+Info: RANDOM NUMBER SEED     1495178641
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         ionized_input.pdb
+Info: STRUCTURE FILE         ionized_input.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             c36_prot.prm
+Info: USING ARITHMETIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+Info: SUMMARY OF PARAMETERS:
+Info: 135 BONDS
+Info: 365 ANGLES
+Info: 706 DIHEDRAL
+Info: 35 IMPROPER
+Info: 6 CROSSTERM
+Info: 68 VDW
+Info: 2 VDW_PAIRS
+Info: 0 NBTHOLE_PAIRS
+Info: TIME FOR READING PSF FILE: 0.052412
+Info: TIME FOR READING PDB FILE: 0.00647211
+Info: 
+Command = zcat ionized.pdb.Z
+Filename.Z = ionized.pdb.Z
+Command = gzip -d -c ionized.pdb.gz
+Filename.gz = ionized.pdb.gz
+FATAL ERROR: Cannot open file 'ionized.pdb' for input in PDB::PDB.: No such file or directory
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006ff9fd CmiAbort + 77
+  [0:1] 1   namd2                               0x000000010007a74b _Z8NAMD_errPKc + 139
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006fdf79 charmrun_abort + 249
+  [0:1] 1   namd2                               0x00000001006ffa38 CmiAbort + 136
+  [0:2] 2   namd2                               0x000000010007a74b _Z8NAMD_errPKc + 139
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-rc1-1-gba7c3c3-namd-charm-6.6.1-build-2014-Dec-08-28969
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 unique compute nodes (4-way SMP).
+Charm++> cpu topology info is gathered in 0.000 seconds.
+Info: NAMD 2.10 for MacOSX-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Comp. Chem. 26:1781-1802 (2005)
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 60601 for multicore-darwin-x86_64
+Info: Built Tue Dec 9 15:31:59 CST 2014 by jim on melbourne.ks.uiuc.edu
+Info: 1 NAMD  2.10  MacOSX-x86_64-multicore  1    otp589725ots.ucsf.edu  mmravic
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.00335097 s
+Info: 2419.12 MB of memory in use based on ps
+Info: Configuration file is fitCST_minCPU.conf
+Info: Working in the current directory /Users/mmravic/diRh-bundle/modelBuilding
+TCL: Suspending until startup complete.
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               2
+Info: NUMBER OF STEPS        0
+Info: STEPS PER CYCLE        10
+Info: LOAD BALANCER  Centralized
+Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
+Info: LDB PERIOD             2000 steps
+Info: FIRST LDB TIMESTEP     50
+Info: LAST LDB TIMESTEP     -1
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: MIN ATOMS PER PATCH    40
+Info: INITIAL TEMPERATURE    310
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 ELECTROSTATICS SCALED BY 1
+Info: MODIFIED 1-4 VDW PARAMETERS WILL BE USED
+Info: DCD FILENAME           output.dcd
+Info: DCD FREQUENCY          2000
+Info: DCD FIRST STEP         2000
+Info: XST FILENAME           output.xst
+Info: XST FREQUENCY          2000
+Info: NO VELOCITY DCD OUTPUT
+Info: NO FORCE DCD OUTPUT
+Info: OUTPUT FILENAME        output
+Info: BINARY OUTPUT FILES WILL BE USED
+Info: RESTART FILENAME       output.restart
+Info: RESTART FREQUENCY      1000
+Info: BINARY RESTART FILES WILL BE USED
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           10
+Info: SWITCHING OFF          12
+Info: PAIRLIST DISTANCE      14
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 0
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        16.5
+Info: ENERGY OUTPUT STEPS    1000
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    10000
+Info: PRESSURE OUTPUT STEPS  1000
+Info: HARMONIC CONSTRAINTS ACTIVE
+Info: HARMONIC CONS EXP      2
+Info: HARMONIC CONS SCALING  2
+Info: LANGEVIN DYNAMICS ACTIVE
+Info: LANGEVIN TEMPERATURE   310
+Info: LANGEVIN USING BBK INTEGRATOR
+Info: LANGEVIN DAMPING COEFFICIENT IS 1 INVERSE PS
+Info: LANGEVIN DYNAMICS NOT APPLIED TO HYDROGENS
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: RIGID BONDS TO HYDROGEN : ALL
+Info:         ERROR TOLERANCE : 1e-08
+Info:          MAX ITERATIONS : 100
+Info: RIGID WATER USING SETTLE ALGORITHM
+Info: RANDOM NUMBER SEED     1495178703
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         ionized_input.pdb
+Info: STRUCTURE FILE         ionized_input.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             c36_prot.prm
+Info: USING ARITHMETIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+Info: SUMMARY OF PARAMETERS:
+Info: 135 BONDS
+Info: 365 ANGLES
+Info: 706 DIHEDRAL
+Info: 35 IMPROPER
+Info: 6 CROSSTERM
+Info: 68 VDW
+Info: 2 VDW_PAIRS
+Info: 0 NBTHOLE_PAIRS
+Info: TIME FOR READING PSF FILE: 0.026619
+Info: TIME FOR READING PDB FILE: 0.00516701
+Info: 
+Command = zcat ionized.pdb.Z
+Filename.Z = ionized.pdb.Z
+Command = gzip -d -c ionized.pdb.gz
+Filename.gz = ionized.pdb.gz
+FATAL ERROR: Cannot open file 'ionized.pdb' for input in PDB::PDB.: No such file or directory
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006ff9fd CmiAbort + 77
+  [0:1] 1   namd2                               0x000000010007a74b _Z8NAMD_errPKc + 139
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006fdf79 charmrun_abort + 249
+  [0:1] 1   namd2                               0x00000001006ffa38 CmiAbort + 136
+  [0:2] 2   namd2                               0x000000010007a74b _Z8NAMD_errPKc + 139
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-rc1-1-gba7c3c3-namd-charm-6.6.1-build-2014-Dec-08-28969
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 unique compute nodes (4-way SMP).
+Charm++> cpu topology info is gathered in 0.000 seconds.
+Info: NAMD 2.10 for MacOSX-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Comp. Chem. 26:1781-1802 (2005)
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 60601 for multicore-darwin-x86_64
+Info: Built Tue Dec 9 15:31:59 CST 2014 by jim on melbourne.ks.uiuc.edu
+Info: 1 NAMD  2.10  MacOSX-x86_64-multicore  1    otp589725ots.ucsf.edu  mmravic
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.00349903 s
+Info: 2411.12 MB of memory in use based on ps
+Info: Configuration file is fitCST_minCPU.conf
+Info: Working in the current directory /Users/mmravic/diRh-bundle/modelBuilding
+TCL: Suspending until startup complete.
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               2
+Info: NUMBER OF STEPS        0
+Info: STEPS PER CYCLE        10
+Info: LOAD BALANCER  Centralized
+Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
+Info: LDB PERIOD             2000 steps
+Info: FIRST LDB TIMESTEP     50
+Info: LAST LDB TIMESTEP     -1
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: MIN ATOMS PER PATCH    40
+Info: INITIAL TEMPERATURE    310
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 ELECTROSTATICS SCALED BY 1
+Info: MODIFIED 1-4 VDW PARAMETERS WILL BE USED
+Info: DCD FILENAME           output.dcd
+Info: DCD FREQUENCY          2000
+Info: DCD FIRST STEP         2000
+Info: XST FILENAME           output.xst
+Info: XST FREQUENCY          2000
+Info: NO VELOCITY DCD OUTPUT
+Info: NO FORCE DCD OUTPUT
+Info: OUTPUT FILENAME        output
+Info: BINARY OUTPUT FILES WILL BE USED
+Info: RESTART FILENAME       output.restart
+Info: RESTART FREQUENCY      1000
+Info: BINARY RESTART FILES WILL BE USED
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           10
+Info: SWITCHING OFF          12
+Info: PAIRLIST DISTANCE      14
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 0
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        16.5
+Info: ENERGY OUTPUT STEPS    1000
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    10000
+Info: PRESSURE OUTPUT STEPS  1000
+Info: HARMONIC CONSTRAINTS ACTIVE
+Info: HARMONIC CONS EXP      2
+Info: HARMONIC CONS SCALING  2
+Info: LANGEVIN DYNAMICS ACTIVE
+Info: LANGEVIN TEMPERATURE   310
+Info: LANGEVIN USING BBK INTEGRATOR
+Info: LANGEVIN DAMPING COEFFICIENT IS 1 INVERSE PS
+Info: LANGEVIN DYNAMICS NOT APPLIED TO HYDROGENS
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: RIGID BONDS TO HYDROGEN : ALL
+Info:         ERROR TOLERANCE : 1e-08
+Info:          MAX ITERATIONS : 100
+Info: RIGID WATER USING SETTLE ALGORITHM
+Info: RANDOM NUMBER SEED     1495178821
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         ionized_input.pdb
+Info: STRUCTURE FILE         ionized_input.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             c36_prot.prm
+Info: USING ARITHMETIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+Info: SUMMARY OF PARAMETERS:
+Info: 135 BONDS
+Info: 365 ANGLES
+Info: 706 DIHEDRAL
+Info: 35 IMPROPER
+Info: 6 CROSSTERM
+Info: 68 VDW
+Info: 2 VDW_PAIRS
+Info: 0 NBTHOLE_PAIRS
+Info: TIME FOR READING PSF FILE: 0.025238
+Info: TIME FOR READING PDB FILE: 0.00500083
+Info: 
+Command = zcat ionized.pdb.Z
+Filename.Z = ionized.pdb.Z
+Command = gzip -d -c ionized.pdb.gz
+Filename.gz = ionized.pdb.gz
+FATAL ERROR: Cannot open file 'ionized.pdb' for input in PDB::PDB.: No such file or directory
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006ff9fd CmiAbort + 77
+  [0:1] 1   namd2                               0x000000010007a74b _Z8NAMD_errPKc + 139
+[0] Stack Traceback:
+  [0:0] 0   namd2                               0x00000001006fdf79 charmrun_abort + 249
+  [0:1] 1   namd2                               0x00000001006ffa38 CmiAbort + 136
+  [0:2] 2   namd2                               0x000000010007a74b _Z8NAMD_errPKc + 139
